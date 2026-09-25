@@ -1,4 +1,4 @@
-# React online marathon
+# Advanced Frontend with React.js
 
 ## The tasks of the topic Ref:
 
