@@ -18,8 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Main Test
-        setup-command: git clone https://github.com/nrevutska-students/sprint-18-refs-test
-          src/__tests__ && npm install
+        setup-command: npm install
         command: CI=true npm test
         timeout: 5
     - name: Autograding Reporter
